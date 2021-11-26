@@ -1,9 +1,10 @@
-# syntax error
-print(Hello world)
+# syntax error NOT ANYMORE!
+print("Hello world")
 
-# runtime error
-10 * (2/0)
+# runtime error NOT ANYMORE!
+print(10 * (2/4))
 
 # semantic error
 name = "Alice"
-print("Hello name")
+# Jason = "19"
+print("Hello", name)
