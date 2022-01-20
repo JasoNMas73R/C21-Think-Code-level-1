@@ -2,6 +2,9 @@
 #elke keer dat je de functie aanroept voeg je een nieuwe game toe als parameter
 #weet je niet meer hoe? Check het solution filmpje op: https://www.linkedin.com/learning/programming-foundations-fundamentals-3/solution-favorite-cities
 
+from ssl import OPENSSL_VERSION_INFO
+
+
 def fav_foods(thing):
     import time
     #got this from https://www.guru99.com/python-time-sleep-delay.html
@@ -54,6 +57,52 @@ def fav_foods(thing):
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
     
+    if (thing.lower() == "grilled cheese"):
+        print("That's right! I love a grilled cheese sandwich so much.")
+        time.sleep(1.5)
+        print("They're my third most favorite type of food actually.")
+        time.sleep(2.5)
+        print("Pro tip out here: try making a sandwich in a pan")
+        time.sleep(0.75)
+        print("first and foremost, then before you add the sandwich")
+        time.sleep(1)
+        print("put some Samurai sauce in the sandwich together with")
+        time.sleep(0.75)
+        print("the cheese. When you grill the thing, the cheese and")
+        time.sleep(1)
+        print("the the sauce will melt together if done proper and it")
+        time.sleep(0.75)
+        print("will turn the cheese into a melted chili cheese!")
+        time.sleep(1.25)
+        print("Serve with Heinz on the side to ease off the heat and done! \n")
+        time.sleep(8)
+        print("Maybe you can guess number 2 and 3 on my list? :)")
+        time.sleep(2.5)
+        fav_foods(input("Can you guess my favorite foods? "))
+
+    if (thing.lower() == "grilled cheese sandwich"):
+        print("That's right! I love a grilled cheese sandwich so much.")
+        time.sleep(1.5)
+        print("They're my third most favorite type of food actually.")
+        time.sleep(2.5)
+        print("Pro tip out here: try making a sandwich in a pan")
+        time.sleep(0,75)
+        print("first and foremost, then before you add the sandwich")
+        time.sleep(1)
+        print("put some Samurai sauce in the sandwich together with")
+        time.sleep(0.75)
+        print("the cheese. When you grill the thing, the cheese and")
+        time.sleep(1)
+        print("the the sauce will melt together if done proper and it")
+        time.sleep(0.75)
+        print("will turn the cheese into a melted chili cheese!")
+        time.sleep(1.25)
+        print("Serve with Heinz on the side to ease off the heat and done! \n")
+        time.sleep(8)
+        print("Maybe you can guess number 2 and 3 on my list? :)")
+        time.sleep(2.5)
+        fav_foods(input("Can you guess my favorite foods? "))
+
 
 
 
