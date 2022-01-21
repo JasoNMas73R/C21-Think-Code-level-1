@@ -42,7 +42,7 @@ def fav_foods(thing):
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
 
-    if (thing.lower() == "fishsticks"):
+    elif (thing.lower() == "fishsticks"):
         print("Yep, that's correctamundo.")
         time.sleep(1)
         print("Fishsticks are my second most favorite type of food.")
@@ -57,10 +57,10 @@ def fav_foods(thing):
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
     
-    if (thing.lower() == "grilled cheese"):
+    elif (thing.lower() == "grilled cheese"):
         print("That's right! I love a grilled cheese sandwich so much.")
         time.sleep(1.5)
-        print("They're my third most favorite type of food actually.")
+        print("They're my third most favorite type of food actually. \n")
         time.sleep(2.5)
         print("Pro tip out here: try making a sandwich in a pan")
         time.sleep(0.75)
@@ -76,17 +76,17 @@ def fav_foods(thing):
         time.sleep(1.25)
         print("Serve with Heinz on the side to ease off the heat and done! \n")
         time.sleep(8)
-        print("Maybe you can guess number 2 and 3 on my list? :)")
+        print("Maybe you can guess number 1 and 3 on my list? :)")
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
 
-    if (thing.lower() == "grilled cheese sandwich"):
+    elif (thing.lower() == "grilled cheese sandwich"):
         print("That's right! I love a grilled cheese sandwich so much.")
         time.sleep(1.5)
-        print("They're my third most favorite type of food actually.")
+        print("They're my third most favorite type of food actually. \n")
         time.sleep(2.5)
         print("Pro tip out here: try making a sandwich in a pan")
-        time.sleep(0,75)
+        time.sleep(0.75)
         print("first and foremost, then before you add the sandwich")
         time.sleep(1)
         print("put some Samurai sauce in the sandwich together with")
@@ -99,12 +99,15 @@ def fav_foods(thing):
         time.sleep(1.25)
         print("Serve with Heinz on the side to ease off the heat and done! \n")
         time.sleep(8)
-        print("Maybe you can guess number 2 and 3 on my list? :)")
+        print("Maybe you can guess number 1 and 2 on my list? :)")
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
 
-    if (thing.lower() == "jason"):
-        print("That's not a food! But if you're tired of me, get a load of the old me:")
+    #thanks to https://manytools.org/hacker-tools/convert-images-to-ascii-art
+    #for the conversion and https://stackoverflow.com/questions/4703516/how-to-write-string-literals-in-python-without-having-to-escape-them
+    #for letting me lead on the right path to avoid the escapes
+    elif (thing.lower() == "jason"):
+        print("That's not a type of food! But if you're tired of me right now, get a load of the old me:")
         time.sleep(5)
         print("\n")
         time.sleep(0.75)
@@ -183,6 +186,26 @@ def fav_foods(thing):
         print("Me at age 7, probably. Taken at Schiphol Airport (back when the panorama terrace was open).")
         time.sleep(4)
         fav_foods(input("Can you guess my favorite foods? "))
+
+    elif (thing.lower() == "aphex twin"):
+        print("that's not a type of food you cunt")
+        exit()
+        
+    elif (thing.lower() == "sauerkraut"):
+        print("Are you literally fucking kidding me?")
+        time.sleep(3.5)
+        print("God I hate that stuff")
+        exit()
+
+    elif (thing.lower() == "exit"):
+        exit()
+
+    else:
+        print("Nope, that ain't it. Try again.")
+        time.sleep(3.5)
+        fav_foods(input("Can you guess my favorite foods? "))
+        
+    
 
 
 
