@@ -27,7 +27,7 @@ def fav_foods(thing):
     #if (thing.lower() == "fish sticks" or "fishsticks"): didn't work the way I wanted so I did a dirty fix
     #came up with various errors if I tried to change it and leaving it as is causes ANY answer after typing
     #fish sticks or fishsticks to behave like that was being typed every time
-    if (thing.lower() == "fish sticks"):
+    elif (thing.lower() == "fish sticks"):
         print("Yep, that's correctamundo.")
         time.sleep(1)
         print("Fish sticks are my second most favorite type of food.")
