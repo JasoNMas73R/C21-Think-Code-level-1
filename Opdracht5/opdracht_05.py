@@ -38,7 +38,7 @@ def fav_foods(thing):
         time.sleep(0.75)
         print("and a nice sauce on top. \n")
         time.sleep(3)
-        print("Maybe you can guess number 2 and 3 on my list? :)")
+        print("Maybe you can guess number 1 and 3 on my list? :)")
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
 
@@ -53,7 +53,7 @@ def fav_foods(thing):
         time.sleep(0.75)
         print("and a nice sauce on top. \n")
         time.sleep(3)
-        print("Maybe you can guess number 2 and 3 on my list? :)")
+        print("Maybe you can guess number 1 and 3 on my list? :)")
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
     
@@ -76,7 +76,7 @@ def fav_foods(thing):
         time.sleep(1.25)
         print("Serve with Heinz on the side to ease off the heat and done! \n")
         time.sleep(8)
-        print("Maybe you can guess number 1 and 3 on my list? :)")
+        print("Maybe you can guess number 1 and 2 on my list? :)")
         time.sleep(2.5)
         fav_foods(input("Can you guess my favorite foods? "))
 
@@ -197,19 +197,46 @@ def fav_foods(thing):
         print("God I hate that stuff")
         exit()
 
+    elif (thing.lower() == "about"):
+        time.sleep(1.5)
+        print("Coded by Jason Boon \n")
+        time.sleep(1)
+        print("Finished, pushed and shoved on")
+        time.sleep(0.25)
+        print("Friday 21 Januari 2022. Only")
+        time.sleep(0.25)
+        print("meant for insiders of the ROCvA")
+        time.sleep(0.25)
+        print("at Maalderij 35 in Amstelveen.")
+        time.sleep(0.25)
+        print("Only dissect for testing purposes.")
+        time.sleep(0.25)
+        print("If you want to use any of this")
+        time.sleep(0.25)
+        print("amateurish code, feel free to call")
+        time.sleep(0.25)
+        print("to me at 06 31318093 before you use")
+        time.sleep(0.25)
+        print("it. Would be nice to know if someone")
+        time.sleep(0.25) 
+        print("implements this code or whatever")
+        time.sleep(0.25)
+        print("or learns a thing or two from it.\n")
+        time.sleep(0.25)
+        print("©? 2022")
+        time.sleep(0.25)
+        fav_foods(input("Can you guess my favorite foods? "))            
+        
+
     elif (thing.lower() == "exit"):
         exit()
 
     else:
         print("Nope, that ain't it. Try again.")
-        time.sleep(3.5)
+        time.sleep(3)
         fav_foods(input("Can you guess my favorite foods? "))
         
     
-
-
-
-
 
 
 fav_foods(input("Can you guess my favorite foods? "))
